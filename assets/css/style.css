@@ -3517,7 +3517,7 @@ video {
 }
 
 .leading-30px {
-	line-height: 1.875rem;
+	line-height: 2.875rem;
 }
 
 .leading-5 {
@@ -7926,7 +7926,7 @@ input[type="range"]::-ms-thumb {
 	}
 
 	.lg\:leading-50px {
-		line-height: 3.125rem;
+		line-height: 4.125rem;
 	}
 
 	.lg\:before\:absolute::before {
@@ -8360,7 +8360,7 @@ input[type="range"]::-ms-thumb {
 	}
 
 	.\34xl\:leading-65px {
-		line-height: 4.0625rem;
+		line-height: 5.025rem;
 	}
 }
 
