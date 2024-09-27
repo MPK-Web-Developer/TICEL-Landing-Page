@@ -1,3 +1,28 @@
 .header-logo {
 	width: 240px;
 }
+
+.video-section-bg {
+	background-image: url("../img/bg/31.jpg");
+}
+
+ul.highlight-block li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+}
+
+@media (max-width: 480px) {
+	ul.highlight-block {
+		flex-direction: column;
+	}
+	ul.highlight-block li {
+		border-right: unset;
+		border-bottom: 1px solid;
+		padding: 16px 0;
+	}
+	ul.highlight-block li:last-child {
+		border: unset;
+	}
+}
