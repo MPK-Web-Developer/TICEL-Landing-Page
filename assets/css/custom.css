@@ -13,6 +13,12 @@ ul.highlight-block li {
 	gap: 4px;
 }
 
+.common-utilities-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media (max-width: 480px) {
 	ul.highlight-block {
 		flex-direction: column;
@@ -24,5 +30,9 @@ ul.highlight-block li {
 	}
 	ul.highlight-block li:last-child {
 		border: unset;
+	}
+
+	.common-utilities-icon img {
+		width: 30px;
 	}
 }
