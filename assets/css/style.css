@@ -8499,3 +8499,7 @@ input[type="range"]::-ms-thumb {
 		padding-right: 1.875rem;
 	}
 }
+
+.col-span-3 {
+	grid-column: span 3 / span 3;
+}
