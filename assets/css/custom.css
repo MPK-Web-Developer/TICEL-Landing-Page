@@ -24,6 +24,11 @@ ul.highlight-block li {
 	gap: 4px;
 }
 
+.floor-plan {
+	background: #f2fbf5;
+	padding: 20px;
+}
+
 .common-utilities-icon {
 	display: flex;
 	justify-content: center;
