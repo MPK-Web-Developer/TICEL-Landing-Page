@@ -2,6 +2,12 @@
 	width: 240px;
 }
 
+.mobile-sidebar-social-link li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .video-section-bg {
 	background-image: url("../img/bg/31.jpg");
 }
