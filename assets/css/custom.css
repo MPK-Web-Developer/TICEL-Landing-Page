@@ -2,6 +2,11 @@
 	width: 240px;
 }
 
+.topbar-icon {
+	display: flex;
+	gap: 8px;
+}
+
 .mobile-sidebar-social-link li a {
 	display: flex;
 	justify-content: center;
@@ -23,6 +28,14 @@ ul.highlight-block li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.testimonial-people-bg {
+	background-image: url("../img/bg/TICEL-Testimonial-1.jpg");
+}
+.testimonial-bg {
+	background-image: url("../img/bg/TICEL-Entrance-1.jpg");
+	background-position: center;
 }
 
 @media (max-width: 480px) {
