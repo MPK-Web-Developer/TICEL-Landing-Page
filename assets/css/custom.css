@@ -17,6 +17,21 @@
 	background-image: url("../img/bg/DJI_0258-min.JPG");
 }
 
+.text-weight {
+	font-weight: 600;
+}
+.ticel-li-1 {
+	font-weight: 800;
+}
+.ticel-li {
+	padding: 5px 5px;
+	font-weight: 800;
+}
+.ticel-li:hover {
+	background-color: #effff2;
+	border-radius: 4px;
+}
+
 ul.highlight-block li {
 	display: flex;
 	flex-direction: column;
