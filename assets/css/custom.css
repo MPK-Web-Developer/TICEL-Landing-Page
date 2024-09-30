@@ -36,6 +36,11 @@
 	border-radius: 4px;
 }
 
+
+.about-list-block h4.ticel-li-2 {
+	font-size: 1rem !important;
+}
+
 ul.highlight-block li {
 	display: flex;
 	flex-direction: column;
