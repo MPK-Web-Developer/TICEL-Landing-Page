@@ -1,3 +1,7 @@
+:root {
+	--primary-color: #3ba962;
+}
+
 .header-logo {
 	width: 240px;
 }
@@ -56,6 +60,19 @@ ul.highlight-block li {
 .testimonial-bg {
 	background-image: url("../img/bg/TICEL-Entrance-1.jpg");
 	background-position: center;
+}
+
+.client-carousel-nav .swiper-button-next,
+.client-carousel-nav .swiper-button-prev {
+	color: var(--primary-color);
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.client-carousel-nav .swiper-button-next:after,
+.client-carousel-nav .swiper-button-prev:after {
+	content: "";
 }
 
 @media (max-width: 480px) {
