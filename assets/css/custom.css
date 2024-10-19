@@ -36,9 +36,14 @@
 	border-radius: 4px;
 }
 
+.bg-opacity-30 {
+	--tw-bg-opacity: 0.1;
+
+}
 
 .about-list-block h4.ticel-li-2 {
-	font-size: 1rem !important;
+	font-size: 0.8em !important;
+	font-weight: 500;
 }
 
 ul.highlight-block li {
@@ -65,6 +70,18 @@ ul.highlight-block li {
 .testimonial-bg {
 	background-image: url("../img/bg/TICEL-Entrance-1.jpg");
 	background-position: center;
+}
+
+.slide-3 {
+	background-image: url("../img/slider/pic3.webp");
+}
+
+.slide-2 {
+	background-image: url("../img/slider/pic2.webp");
+}
+
+.slide-1 {
+	background-image: url("../img/slider/pic1.webp");
 }
 
 .client-carousel-nav .swiper-button-next,
