@@ -53,6 +53,14 @@ ul.highlight-block li {
 	gap: 4px;
 }
 
+.warmshell-pd{
+	padding-top: 19px;
+}
+
+.warmshell-pd-b{
+	padding-top: 10px;
+}
+
 .floor-plan {
 	background: #f2fbf5;
 	padding: 20px;
